@@ -653,3 +653,15 @@ git init
 git remote add origin https://github.com/DaveB2222/advanced-bash-translator.git
 git remote -v
 git add .
+git commit -m "Initial commit from GitPod"
+git push -u origin main
+git ls-remote origin
+git branch
+git push -u origin master
+git remote -v
+git remote set-url origin git@github.com:DaveB2222/advanced-bash-translator.git
+git remote -v
+ssh -T git@github.com
+git push -u origin master
+rm cat.txt dog.txt stdout.txt stderr.txt name.txt
+git add .
