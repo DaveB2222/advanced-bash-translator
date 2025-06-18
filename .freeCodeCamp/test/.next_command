@@ -665,3 +665,12 @@ ssh -T git@github.com
 git push -u origin master
 rm cat.txt dog.txt stdout.txt stderr.txt name.txt
 git add .
+git commit -m "Remove clutter files"
+git push
+touch README.md
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+ls --color=auto
+git add .
+__vsc_prompt_cmd_original
+git add .
